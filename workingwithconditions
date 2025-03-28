@@ -55,15 +55,15 @@ if (x > d)
   if (x > c)
     if (x > b)
       if (x > a)
-        log string "Row is - " >> x >> "," >> a >> "," >> b >> "," >> c >> "," >> d
+        log string "Row is - " >> x >> ">" >> a >> ">" >> b >> ">" >> c >> ">" >> d
       else
-        log string "Row is - " >> a >> "," >> x >> "," >> b >> "," >> c >> "," >> d
+        log string "Row is - " >> a >> ">" >> x >> ">" >> b >> ">" >> c >> ">" >> d
     else
-      log string "Row is - " >> a >> "," >> b >> "," >> x >> "," >> c >> "," >> d
+      log string "Row is - " >> a >> ">" >> b >> ">" >> x >> ">" >> c >> ">" >> d
   else
-    log string "Row is - " >> a >> "," >> b >> "," >> c >> "," >> x >> "," >> d
+    log string "Row is - " >> a >> ">" >> b >> ">" >> c >> ">" >> x >> ">" >> d
 else
-  log string "Row is - " >> a >> "," >> b >> "," >> c >> "," >> d >> "," >> x
+  log string "Row is - " >> a >> ">" >> b >> ">" >> c >> ">" >> d >> ">" >> x
 close
 
 delete a
